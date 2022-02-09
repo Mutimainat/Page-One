@@ -1,0 +1,131 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  line-height: 1.5;
+}
+.appCard {
+    width: 100%;      
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font-family: 'Poppins', sans-serif;
+}
+button {
+    font-weight: bold;    
+}
+ol {
+    color: #F9F8FF; 
+    font-size: 10px;
+}
+h1, h2 {
+    font-weight: bold;
+    color: #F9F8FF;
+    font-size: 15px;
+}
+p, h3, #h3 {
+    color: #7a7c7e;
+    font-size: 10px;
+}
+.row1, .row3, .row7 {
+    background-color: #293942;
+}
+.row2, .row4, .row5, .row6, #r6_0, .row8 {
+    background-color: #1b262c;
+}
+.row2, .row4 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.row5, .row7 {
+    display: flex;
+    flex-direction: row; 
+    justify-content: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+}
+#r6_0, .row6 {
+    display: flex;
+    flex-direction: row; 
+    justify-content: left;
+    padding-left: 100px;
+}
+.row1 {
+    padding-left: 100px;
+}
+#radiohead, #contact, #plans, #blog {
+    border: none;
+    background-color: #293942;
+    color: #F9F8FF;
+    height: 40px; 
+}
+#radiohead {
+    padding-right: 500px;
+}
+#signIn {
+    background-color:#7971E9;
+    color: #F9F8FF;     
+}
+#signUp {
+    background-color: #293942;
+    color: #7971E9;
+}
+.row2 {
+    background-image: url(images/2_1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#tryIt {
+    background-color:#7971E9;
+    color: #F9F8FF;    
+    height: 30px;
+    width: 90px
+}
+.row3 {
+    padding-left: 80px;
+}
+#playstation, #blackberry, #redbull, #tiktok, #sennheiser {    
+    padding-right: 80px;
+    height: 40px;   
+}
+#more {
+    border: none;
+    background-color: #1b262c;
+    color: #7971E9;  
+}
+#discover {
+    border: none;
+    background-color: #1b262c;
+    color: #7971E9;  
+}
+#album_detailsR5 {
+    padding-right: 400px;
+    padding-top: 130px;
+}
+#r6_1, #r6_2, #r6_3, #r6_4 {
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+.r7_1 {
+    padding-right: 200px;
+}
+#initial {
+    font-weight: bold;
+    color: #7a7c7e;
+    font-size: 15px;
+}
+.row8 {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+#insta, #fb, #twitter {
+    padding-right: 20px;
+}
