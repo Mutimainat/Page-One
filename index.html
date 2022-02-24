@@ -6,151 +6,159 @@
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <div class="appCard">
-            <div class="row1">
-                <button id="radiohead">RADIOHEAD</button>
-                <button id="contact">Contact</button>
-                <button id="plans">Plans</button>
-                <button id="blog">Blog</button>             
-                <button id="signIn">Sign In</button>
-                <button id="signUp">Sign Up</button>
-            </div>
-            <div class="row2">
-                <h1>Discover, search and <br>play any song featuring <br>voice control.</h1>
-                <button id="tryIt">Try it free</button>
-                <p>
-                    <a href="https://www.apple.com/app-store/" target="_blank">
-                        <img src="images/appstore.jpg" alt="Download on Appstore" id="appstore"/>
-                    </a>
-                    <a href="https://play.google.com/store/apps" target="_blank">
-                        <img src="images/googleplay.png" alt="Get it on Google Play" id="googleplay"/>
-                    </a>
-                </p>                
-            </div>
-            <div class="row3">
-                <a href="https://www.playstation.com/en-us/" target="_blank">
-                    <img src="images/playstation.png" alt="PlayStation logo" id="playstation"/>
-                </a>
-                <a href="https://www.blackberry.com/us/en" target="_blank">
-                    <img src="images/blackberry.png" alt="BlackBerry logo" id="blackberry"/>
-                </a>
-                <a href="https://www.redbull.com/ng-en/" target="_blank">
-                    <img src="images/redbull.png" alt="RedBull logo" id="redbull"/>
-                </a>
-                <a href="https://www.tiktok.com/en/" target="_blank">
-                    <img src="images/tiktok.png" alt="TikTok logo" id="tiktok"/>
-                </a>
-                <a href="https://en-us.sennheiser.com/" target="_blank">
-                    <img src="images/sennheiser.png" alt="SENNHEISER logo" id="sennheiser"/>
-                </a>
-            </div>
-            <div class="row4">
-                <div>
-                    <img src="images/4_1.png" alt="Starboy by The Weekend album cover" id="starboy"/> 
-                    <img src="images/4_2.png" alt="Drake"/>
-                    <img src="images/4_3.png" alt="Susamam album cover"/>
-                </div>
-                <div>
-                    <img src="images/4_4.png" alt="Eminem album cover" id="eminem"/>
-                    <img src="images/4_5.png" alt="The Weekend"/>
-                    <img src="images/4_6.png" alt="Girl holding black baloon"/>
-                </div>
-                <div>
-                    <h1>The music you love</h1>
+        <div id="container">
+            <header>
+                <nav class="row1">
+                    <a href="#"><button id="radiohead" type="submit">RADIOHEAD</button></a>
+                    <a href="#"><button id="contact" type="submit">Contact</button></a>
+                    <a href="#"><button id="plans" type="submit">Plans</button></a>
+                    <a href="#"><button id="blog" type="submit">Blog</button></a>
+                    <a href="#"><button id="signIn" type="submit">Sign In</button></a>
+                    <a href="#"><button id="signUp" type="submit">Sign Up</button></a>
+                </nav>
+            </header>
+            <main>
+                <div class="row2">
+                    <div id="info-box">
+                        <h1>Discover, search and </br>play any song featuring </br>voice control.</h1>
+                        <a href="#"><button id="tryIt" type="submit">Try it free</button></a>
+                    </div>                    
                     <p>
-                        With over 60 million tracks and tons of exclusive <br>
-                        interviews and videos, Tidal is here to bring you <br>
-                        closer to the artists you listen to.
-                    </p>
-                    <button id="more">> More Featured</button> 
+                        <a href="https://www.apple.com/app-store/" target="_blank">
+                            <img src="images/appstore.jpg" alt="Download on Appstore"/>
+                        </a>
+                        <a href="https://play.google.com/store/apps" target="_blank">
+                            <img src="images/googleplay.jpg" alt="Get it on Google Play"/>
+                        </a>
+                    </p>                             
                 </div>
-            </div>
-            <div class="row5">
-                <div id="album_detailsR5">
-                    <h1>Hand-picked playlists</h1>
-                    <p>
-                        Stream guest playlists curated by the artists you <br>
-                        love. Also, check out our original playlists <br>
-                        hand-picked by our team of experts.
-                    </p>
-                    <button id="discover">> Discover Radiohead</button> 
+                <div class="row3">
+                    <a href="https://www.playstation.com/en-us/" target="_blank">
+                        <img id="playstation" src="images/playstation.jpg" alt="PlayStation logo"/>
+                    </a>
+                    <a href="https://www.blackberry.com/us/en" target="_blank">
+                        <img id="blackberry" src="images/BlackBerry.jpg" alt="BlackBerry logo" />
+                    </a>
+                    <a href="https://www.redbull.com/ng-en/" target="_blank">
+                        <img id="redbull" src="images/redbull.jpg" alt="RedBull logo"/>
+                    </a>
+                    <a href="https://www.tiktok.com/en/" target="_blank">
+                        <img id="tiktok" src="images/tiktok.jpg" alt="TikTok logo"/>
+                    </a>
+                    <a href="https://en-us.sennheiser.com/" target="_blank">
+                        <img id="sennheiser" src="images/sennheiser.jpg" alt="SENNHEISER logo"/>
+                    </a>
+                </div>
+                <div class="row4">
+                    <div>
+                        <a href="#"><img src="images/4_1.jpg" alt="Starboy by The Weekend album cover"/></a>
+                        <a href="#"><img src="images/4_2.jpg" alt="Drake"/></a>
+                        <a href="#"><img src="images/4_3.jpg" alt="Susamam album cover"/></a> 
+                    </div>
+                    <div id="info-box2">
+                        <h1>The music you love</h1>
+                        <p>
+                            With over 60 million tracks and tons of exclusive </br>
+                            interviews and videos, Tidal is here to bring you </br>
+                            closer to the artists you listen to.</br>
+                            <a href="#" id="more">> More Featured</a>
+                        </p>
+                    </div>                    
+                    <div>
+                        <a href="#"><img src="images/4_4.jpg" alt="Eminem album cover"/></a>
+                        <a href="#"><img src="images/4_5.jpg" alt="The Weekend"/></a>
+                        <a href="#"><img src="images/4_6.jpg" alt="Girl holding black baloon"/></a>   
+                    </div>       
+                </div>
+                <div class="row5">   
+                    <div id="info-box3">
+                        <h1>Hand-picked playlists</h1>
+                        <p>
+                            Stream guest playlists curated by the artists you </br>
+                            love. Also, check out our original playlists </br>
+                            hand-picked by our team of experts. </br>
+                            <a href="#" id="discover">> Discover Radiohead</a>
+                        </p>
+                    </div>             
+                    <div>
+                        <a href="#"><img src="images/5_1.jpg" alt="Starboy by The Weekend album cover"/></a>
+                        <a href="#"><img src="images/5_2.jpg" alt="Drake"/></a>                 
+                    </div>                                                
+                </div>
+                <div class="row6">
+                    <h1>Why radiohead?</h1>
                 </div> 
-                <div>
-                    <img src="images/5_1.png" alt="Starboy by The Weekend album cover"/>
-                    <img src="images/5_2.png" alt="Drake"/>
-                </div>                            
-            </div>
-            <div id="r6_0"> 
-                <h1>Why radiohead?</h1>
-            </div>  
-            <div class="row6">                             
-                <div id="r6_1">                               
-                    <h2>| A world music in your pocket.</h2>
-                    <p>Find new loves and old favourites from over 56 <br>million tracks.</p> 
+                <div class="row7">
+                    <div id="r7_1">                               
+                        <h2>A world music in your pocket.</h2>
+                        <p>Find new loves and old favourites from over 56 </br>million tracks.</p> 
+                    </div>
+                    <div id="r7_2">
+                        <h2>No Wifi? No problem.</h2> 
+                        <p>With Deezer Premium, you don't need to be </br>connected to enjoy your favourite tracks.</p>
+                    </div>            
+                    <div id="r7_3">
+                        <h2>Craft your collection.</h2>
+                        <p>Create playlists from millions of tracks and take </br>them with you wherever you go.</p>
+                    </div>
+                    <div id="r7_4">
+                        <h2>Made for you.</h2>
+                        <p>Flow gets to know what you like and what you </br> don't. Discover your personal soundtrack.</p>
+                    </div> 
                 </div>
-                <div id="r6_2">
-                    <h2>| No Wifi? No problem.</h2> 
-                    <p>With Deezer Premium, you don't need to be <br>connected to enjoy your favourite tracks.</p>
-                </div>            
-                <div id="r6_3">
-                    <h2>| Craft your collection.</h2>
-                    <p>Create playlists from millions of tracks and take <br>them with you wherever you go.</p>
-                </div>
-                <div id="r6_4">
-                    <h2>| Made for you.</h2>
-                    <p>Flow gets to know what you like and what you <br> don't. Discover your personal soundtrack.</p>
-                </div>                            
-            </div>  
-            <div class="row7">
-                <div class="r7_1">
-                    <h1>RADIOHEAD</h1>
-                    <p id="h3">
-                        Radiohead is the first global music streaming <br>
-                        service with high fidelity sound, hi-def video quality, <br>
-                        along with expertly curated playlists and original <br>
-                        content making it a trusted source for music and <br>culture.
-                    </p>
-                </div>
-                <div>
-                    <list>
-                        <ol id="initial">Get Started</ol>
-                        <ol>Get Started</ol>
-                        <ol>Playlist Import</ol>
-                        <ol>Supported Devices</ol>
-                        <ol>Get Support</ol>
-                    </list>
-                </div>
-                <div>
-                    <list>
-                        <ol id="initial">Discover</ol>
-                        <ol>About</ol>
-                        <ol>Magazine</ol>
-                    </list>
-                </div>
-                <div>
-                    <list>
-                        <ol id="initial">Account</ol>
-                        <ol>Sign Up</ol>
-                        <ol>Redeem Voucher</ol>
-                        <ol>Redeem Giftcard</ol>
-                        <ol>Manage Account</ol>
-                        <ol>Store</ol>
-                    </list>
-                </div>              
-                <div>
-                    <list>
-                        <ol id="initial">Company</ol>
-                        <ol>Partners</ol>
-                        <ol>Careers</ol>
-                        <ol>Press</ol>
-                    </list>
-                </div>                         
-            </div>     
-            <div class="row8">
-                <img src="images/i.jpg" alt="Instagram logo" id="insta"/>
-                <img src="images/f.jpg" alt="Facebook logo" id="fb"/>
-                <img src="images/t.jpg" alt="Twitter logo" id="twitter"/>
-            </div>
-        </div>
+                <div class="row8">
+                    <div id="r8_1">
+                        <h1 id="radiohead">RADIOHEAD</h1>
+                        <p>
+                            Radiohead is the first global music streaming </br>
+                            service with high fidelity sound, hi-def video quality, </br>
+                            along with expertly curated playlists and original </br>
+                            content making it a trusted source for music and </br>culture.
+                        </p>
+                    </div>
+                    <div id="r8_2">
+                        <div>
+                            <list>
+                                <ol id="initial">Get Started</ol>
+                                <a href="#"><ol>Get Started</ol></a>
+                                <a href="#"><ol>Playlist Import</ol></a>
+                                <a href="#"><ol>Supported Devices</ol></a>
+                                <a href="#"><ol>Get Support</ol></a>
+                            </list>
+                        </div>
+                        <div>
+                            <list>
+                                <ol id="initial">Discover</ol>
+                                <a href="#"><ol>About</ol></a>
+                                <a href="#"><ol>Magazine</ol></a>
+                            </list>
+                        </div>
+                        <div>
+                            <list>
+                                <ol id="initial">Account</ol>
+                                <a href="#"><ol>Sign Up</ol></a>
+                                <a href="#"><ol>Redeem Voucher</ol></a>
+                                <a href="#"><ol>Redeem Giftcard</ol></a>
+                                <a href="#"><ol>Manage Account</ol></a>
+                                <a href="#"><ol>Store</ol></a>
+                            </list>
+                        </div>              
+                        <div>
+                            <list>
+                                <ol id="initial">Company</ol>
+                                <a href="#"><ol>Partners</ol></a>
+                                <a href="#"><ol>Careers</ol></a>
+                                <a href="#"><ol>Press</ol></a>
+                            </list>
+                        </div>     
+                    </div>                                        
+                </div> 
+            </main>
+            <footer class="row9">
+                <a href="#"><img id="insta" src="images/instagram.jpg" alt="Instagram logo"/></a>
+                <a href="#"><img id="facebook" src="images/facebook.jpg" alt="Facebook logo"/></a>
+                <a href="#"><img id="twitter" src="images/twitter.jpg" alt="Twitter logo"/></a>
+            </footer> 
+        </div>     
     </body>
 </html>
